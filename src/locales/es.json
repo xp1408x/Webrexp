@@ -1,0 +1,132 @@
+{
+  "translation": {
+    "header": {
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "aboutUs": "Nosotros",
+      "contact": "Contacto",
+      "quoteProject": "Cotiza tu Proyecto"
+    },
+    "heroSection": {
+      "title": "Transformamos Ideas en Experiencias Digitales",
+      "subtitle": "Somos un equipo de expertos en desarrollo web, móvil y tecnologías inmersivas listos para llevar tu proyecto al siguiente nivel.",
+      "callToAction": "Hablemos de tu Idea"
+    },
+    "socialProof": {
+      "title": "CONFIAN EN NOSOTROS"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones a la medida de tus ambiciones.",
+      "webDevelopment": {
+        "title": "Desarrollo Web",
+        "description": "Creamos desde e-commerce optimizados hasta plataformas SaaS complejas, enfocados en rendimiento y experiencia de usuario."
+      },
+      "mobileApps": {
+        "title": "Apps Móviles",
+        "description": "Desarrollamos aplicaciones nativas (iOS/Android) y multiplataforma que conectan con tus usuarios dondequiera que estén."
+      },
+      "arVr": {
+        "title": "Realidad Aumentada y Virtual",
+        "description": "Innovamos con experiencias inmersivas que revolucionan la forma en que tus clientes interactúan con tu marca."
+      },
+      "digitalMarketing": {
+        "title": "Marketing Digital",
+        "description": "Potenciamos tu alcance con estrategias de SEO, SEM y redes sociales diseñadas para convertir y fidelizar clientes."
+      }
+    },
+    "portfolio": {
+      "title": "Proyectos Destacados",
+      "subtitle": "Nuestro trabajo habla por nosotros.",
+      "project1": {
+        "title": "Plataforma E-commerce",
+        "client": "Cliente: TechZone",
+        "button": "Ver Caso de Estudio"
+      },
+      "project2": {
+        "title": "App de Realidad Aumentada",
+        "client": "Cliente: ArquiVis",
+        "button": "Ver Caso de Estudio"
+      }
+    },
+    "aboutUs": {
+      "title": "Humanizamos la Tecnología",
+      "subtitle": "Somos más que desarrolladores; somos tus socios estratégicos.",
+      "processTitle": "Nuestro Proceso",
+      "process1": {
+        "title": "Descubrimiento",
+        "description": "Entendemos tus metas y desafíos para definir el alcance del proyecto."
+      },
+      "process2": {
+        "title": "Diseño UI/UX",
+        "description": "Creamos interfaces intuitivas y atractivas centradas en el usuario."
+      },
+      "process3": {
+        "title": "Desarrollo",
+        "description": "Codificamos con las mejores prácticas y tecnologías de vanguardia."
+      },
+      "process4": {
+        "title": "Lanzamiento y Soporte",
+        "description": "Desplegamos tu proyecto y te acompañamos para asegurar su éxito continuo."
+      },
+      "teamTitle": "El Equipo",
+      "teamMember1": {
+        "name": "Pedro Cortez",
+        "role": "Mobile Tech Lead",
+        "country": "🇵🇪 Perú"
+      },
+      "teamMember2": {
+        "name": "Ricardo Cortez",
+        "role": "Web Developer",
+        "country": "🇵🇪 Perú"
+      },
+      "teamMember3": {
+        "name": "Grecia Gonzalez",
+        "role": "Web Designer",
+        "country": "🇭🇳 Honduras"
+      },
+      "teamMember4": {
+        "name": "Ruben Tarantini",
+        "role": "Lead UI/UX Designer",
+        "country": "🇺🇸 EEUU"
+      }
+    },
+    "brandPillars": {
+      "title": "Nuestros Pilares",
+      "subtitle": "La esencia de Werexp se basa en cuatro principios fundamentales:",
+      "pillar1": {
+        "title": "Resolución inteligente",
+        "description": "Comprendemos la raíz del problema y proponemos soluciones viables y escalables."
+      },
+      "pillar2": {
+        "title": "Tecnología centrada en la experiencia",
+        "description": "Web, mobile y AR orientados al usuario final."
+      },
+      "pillar3": {
+        "title": "Visión colaborativa",
+        "description": "Trabajamos como parte del equipo del cliente."
+      },
+      "pillar4": {
+        "title": "Innovación constante",
+        "description": "Siempre en búsqueda de nuevas formas de impactar."
+      }
+    },
+    "contactForm": {
+      "title": "¿Listo para empezar?",
+      "subtitle": "Contáctanos. Haremos que tu proyecto sea una realidad.",
+      "name": "Nombre",
+      "email": "Email",
+      "serviceOfInterest": "Servicio de interés",
+      "webDevelopment": "Desarrollo Web",
+      "mobileApp": "App Móvil",
+      "arVr": "AR/VR",
+      "digitalMarketing": "Marketing Digital",
+      "other": "Otro",
+      "message": "Mensaje",
+      "sendMessage": "Enviar Mensaje"
+    },
+    "footer": {
+      "copyright": "© 2024 Werexp. Todos los derechos reservados."
+    }
+  }
+}

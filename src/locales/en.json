@@ -1,0 +1,132 @@
+{
+  "translation": {
+    "header": {
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "aboutUs": "About Us",
+      "contact": "Contact",
+      "quoteProject": "Quote your Project"
+    },
+    "heroSection": {
+      "title": "We Transform Ideas into Digital Experiences",
+      "subtitle": "We are a team of experts in web, mobile development, and immersive technologies ready to take your project to the next level.",
+      "callToAction": "Let's Talk About Your Idea"
+    },
+    "socialProof": {
+      "title": "TRUST US"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Tailored solutions for your ambitions.",
+      "webDevelopment": {
+        "title": "Web Development",
+        "description": "We create everything from optimized e-commerce to complex SaaS platforms, focused on performance and user experience."
+      },
+      "mobileApps": {
+        "title": "Mobile Apps",
+        "description": "We develop native (iOS/Android) and cross-platform applications that connect with your users wherever they are."
+      },
+      "arVr": {
+        "title": "Augmented and Virtual Reality",
+        "description": "We innovate with immersive experiences that revolutionize how your clients interact with your brand."
+      },
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "description": "We boost your reach with SEO, SEM, and social media strategies designed to convert and retain clients."
+      }
+    },
+    "portfolio": {
+      "title": "Featured Projects",
+      "subtitle": "Our work speaks for itself.",
+      "project1": {
+        "title": "E-commerce Platform",
+        "client": "Client: TechZone",
+        "button": "View Case Study"
+      },
+      "project2": {
+        "title": "Augmented Reality App",
+        "client": "Client: ArquiVis",
+        "button": "View Case Study"
+      }
+    },
+    "aboutUs": {
+      "title": "We Humanize Technology",
+      "subtitle": "We are more than developers; we are your strategic partners.",
+      "processTitle": "Our Process",
+      "process1": {
+        "title": "Discovery",
+        "description": "We understand your goals and challenges to define the project scope."
+      },
+      "process2": {
+        "title": "UI/UX Design",
+        "description": "We create intuitive and attractive user-centered interfaces."
+      },
+      "process3": {
+        "title": "Development",
+        "description": "We code with best practices and cutting-edge technologies."
+      },
+      "process4": {
+        "title": "Launch and Support",
+        "description": "We deploy your project and accompany you to ensure its continuous success."
+      },
+      "teamTitle": "The Team",
+      "teamMember1": {
+        "name": "Pedro Cortez",
+        "role": "Mobile Tech Lead",
+        "country": "🇵🇪 Peru"
+      },
+      "teamMember2": {
+        "name": "Ricardo Cortez",
+        "role": "Web Developer",
+        "country": "🇵🇪 Peru"
+      },
+      "teamMember3": {
+        "name": "Grecia Gonzalez",
+        "role": "Web Designer",
+        "country": "🇭🇳 Honduras"
+      },
+      "teamMember4": {
+        "name": "Ruben Tarantini",
+        "role": "Lead UI/UX Designer",
+        "country": "🇺🇸 USA"
+      }
+    },
+    "brandPillars": {
+      "title": "Our Pillars",
+      "subtitle": "The essence of Werexp is based on four fundamental principles:",
+      "pillar1": {
+        "title": "Smart Resolution",
+        "description": "We understand the root of the problem and propose viable and scalable solutions."
+      },
+      "pillar2": {
+        "title": "Experience-Centric Technology",
+        "description": "Web, mobile, and AR oriented to the end-user."
+      },
+      "pillar3": {
+        "title": "Collaborative Vision",
+        "description": "We work as part of the client's team."
+      },
+      "pillar4": {
+        "title": "Constant Innovation",
+        "description": "Always seeking new ways to make an impact."
+      }
+    },
+    "contactForm": {
+      "title": "Ready to start?",
+      "subtitle": "Contact us. We will make your project a reality.",
+      "name": "Name",
+      "email": "Email",
+      "serviceOfInterest": "Service of interest",
+      "webDevelopment": "Web Development",
+      "mobileApp": "Mobile App",
+      "arVr": "AR/VR",
+      "digitalMarketing": "Digital Marketing",
+      "other": "Other",
+      "message": "Message",
+      "sendMessage": "Send Message"
+    },
+    "footer": {
+      "copyright": "© 2024 Werexp. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import './tailwind.css';
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #E5E8EC;
+  color: #2D2D2D;
+}
+h1, h2, h3, h4, h5, h6, .logo, nav a, .cta, .btn, .menu {
+  font-family: 'Poppins', 'Space Grotesk', Arial, sans-serif;
+}
+.bg-dark { background-color: #FFFFFF; }
+.bg-card { background-color: #E5E8EC; }
+.border-card { border-color: #2D2D2D; }
+.text-accent { color: #00CFFF !important; }
+.bg-accent { background-color: #00CFFF !important; }
+.bg-accent-hover:hover { background-color: #1565FF !important; }
+.text-secondary { color: #1565FF !important; }
+.bg-secondary { background-color: #1565FF !important; }
+.text-urbano { color: #2D2D2D !important; }
+.bg-urbano { background-color: #2D2D2D !important; }
+.bg-neblina { background-color: #E5E8EC !important; }
+.text-white { color: #FFFFFF !important; }
+.bg-white { background-color: #FFFFFF !important; }
+.btn, .cta, .bg-accent {
+  background: linear-gradient(90deg, #00CFFF 0%, #1565FF 100%);
+  color: #FFFFFF !important;
+  border: none;
+}
+.btn:hover, .cta:hover {
+  background: #1565FF;
+  color: #FFFFFF !important;
+}
+.card, .bg-card {
+  background: #E5E8EC !important;
+  color: #2D2D2D !important;
+}
+.reveal {
+  position: relative;
+  /* transform: translateY(100px); */ /* Removed to test layout shift */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+.reveal.active {
+  /* transform: translateY(0px); */ /* Removed to test layout shift */
+  opacity: 1;
+  visibility: visible;
+}

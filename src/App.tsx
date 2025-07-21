@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import AboutUs from './components/AboutUs';
 import BrandPillars from './components/BrandPillars';
 import ContactForm from './components/ContactForm';
+import PricingPlans from './components/PricingPlans';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import { useScrollReveal } from './utils/scrollReveal';
@@ -23,6 +24,7 @@ function App() {
         <Portfolio />
         <AboutUs />
         <BrandPillars />
+        <PricingPlans />
         <ContactForm />
       </main>
       <Footer />

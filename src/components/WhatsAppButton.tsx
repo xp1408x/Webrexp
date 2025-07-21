@@ -1,8 +1,20 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // Import useTranslation
 
 const WhatsAppButton: React.FC = () => {
+  const { i18n } = useTranslation(); // Get i18n instance
   const phoneNumber = '51984342126';
-  const message = encodeURIComponent('Quiero cotizar');
+
+  // Define messages for different languages
+  const messages: { [key: string]: string } = {
+    es: 'Quiero cotizar',
+    en: 'I want a quote',
+    zh: '我想报价', // Chinese for "I want a quote"
+  };
+
+  // Get the message based on the current language, fallback to Spanish if not found
+  const currentMessage = messages[i18n.language] || messages.es;
+  const message = encodeURIComponent(currentMessage);
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (

@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import LanguageDropdown from './LanguageDropdown';
 
 const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
 
   return (
     <header className="bg-white/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-card">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto pl-6 pr-5 py-4 flex justify-between items-center"> {/* Changed px-6 to pl-6 pr-5 */}
         <a href="#inicio" className="logo text-2xl font-bold text-urbano">
           Wer<span className="text-accent">exp</span>
         </a>
@@ -31,27 +33,18 @@ const Header = () => {
         >
           {t('header.quoteProject')}
         </a>
-        <div className="flex items-center space-x-4">
-          <div className="hidden md:flex space-x-2">
-            <button
-              className="text-urbano hover:text-accent transition duration-300"
-              onClick={() => i18n.changeLanguage('en')}
-            >
-              EN
-            </button>
-            <button
-              className="text-urbano hover:text-accent transition duration-300"
-              onClick={() => i18n.changeLanguage('es')}
-            >
-              ES
-            </button>
-            <button
-              className="text-urbano hover:text-accent transition duration-300"
-              onClick={() => i18n.changeLanguage('zh')}
-            >
-              ZH
-            </button>
-          </div>
+        <div className="relative flex items-center space-x-4"> {/* Removed mr-8 */}
+          <button
+            className="text-urbano hover:text-accent transition duration-300"
+            onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+          >
+            <i className="fas fa-cog text-2xl" aria-hidden="true"></i>
+          </button>
+          {isLanguageDropdownOpen && (
+            <div className="absolute top-full right-0 mt-2 z-10">
+              <LanguageDropdown onClose={() => setIsLanguageDropdownOpen(false)} />
+            </div>
+          )}
           <button
             id="mobile-menu-button"
             className="md:hidden text-urbano"
@@ -75,25 +68,21 @@ const Header = () => {
         <a href="#contacto" className="block text-center py-3 px-6 text-urbano hover:bg-neblina">
           {t('header.contact')}
         </a>
-        <div className="flex justify-center space-x-4 py-3">
+        <a href="#contacto" className="block text-center py-3 px-6 font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 mx-auto my-4 bg-accent text-white">
+          {t('header.quoteProject')}
+        </a>
+        <div className="flex justify-center py-3">
           <button
             className="text-urbano hover:bg-neblina px-4 py-2 rounded"
-            onClick={() => i18n.changeLanguage('en')}
+            onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
           >
-            EN
+            <i className="fas fa-cog text-2xl" aria-hidden="true"></i>
           </button>
-          <button
-            className="text-urbano hover:bg-neblina px-4 py-2 rounded"
-            onClick={() => i18n.changeLanguage('es')}
-          >
-            ES
-          </button>
-          <button
-            className="text-urbano hover:bg-neblina px-4 py-2 rounded"
-            onClick={() => i18n.changeLanguage('zh')}
-          >
-            ZH
-          </button>
+          {isLanguageDropdownOpen && (
+            <div className="mt-2 z-10">
+              <LanguageDropdown onClose={() => setIsLanguageDropdownOpen(false)} />
+            </div>
+          )}
         </div>
       </div>
     </header>

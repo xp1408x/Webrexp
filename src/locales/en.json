@@ -76,24 +76,19 @@
         "country": "🇵🇪 Peru"
       },
       "teamMember2": {
-        "name": "Ricardo Cortez",
+        "name": "Ivan Chucas",
         "role": "Web Developer",
         "country": "🇵🇪 Peru"
       },
       "teamMember3": {
-        "name": "Grecia Gonzalez",
-        "role": "Web Designer",
-        "country": "🇭🇳 Honduras"
-      },
-      "teamMember4": {
-        "name": "Ruben Tarantini",
-        "role": "Lead UI/UX Designer",
-        "country": "🇺🇸 USA"
+        "name": "Andrés Melendres",
+        "role": "Software Engineer",
+        "country": "🇵🇪 Peru"
       }
     },
     "brandPillars": {
       "title": "Our Pillars",
-      "subtitle": "The essence of Werexp is based on four fundamental principles:",
+      "subtitle": "The essence of API Consulting is based on four fundamental principles:",
       "pillar1": {
         "title": "Smart Resolution",
         "description": "We understand the root of the problem and propose viable and scalable solutions."
@@ -126,7 +121,7 @@
       "sendMessage": "Send Message"
     },
     "footer": {
-      "copyright": "© 2024 Werexp. All rights reserved."
+      "copyright": "© 2024 API Consulting. All rights reserved."
     }
   }
 }

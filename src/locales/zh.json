@@ -76,24 +76,19 @@
         "country": "🇵🇪 秘鲁"
       },
       "teamMember2": {
-        "name": "Ricardo Cortez",
-        "role": "网页开发人员",
-        "country": "🇵🇪 秘鲁"
+        "name": "Ivan Chucas",
+        "role": "Web Developer",
+        "country": "🇵🇪 Peru"
       },
       "teamMember3": {
-        "name": "Grecia Gonzalez",
-        "role": "网页设计师",
-        "country": "🇭🇳 洪都拉斯"
-      },
-      "teamMember4": {
-        "name": "Ruben Tarantini",
-        "role": "首席UI/UX设计师",
-        "country": "🇺🇸 美国"
+        "name": "Andrés Melendres",
+        "role": "Software Engineer",
+        "country": "🇵🇪 Peru"
       }
     },
     "brandPillars": {
       "title": "我们的支柱",
-      "subtitle": "Werexp 的精髓基于四个基本原则：",
+      "subtitle": "API Consulting 的精髓基于四个基本原则：",
       "pillar1": {
         "title": "智能解决方案",
         "description": "我们理解问题的根源，并提出可行且可扩展的解决方案。"
@@ -126,7 +121,7 @@
       "sendMessage": "发送消息"
     },
     "footer": {
-      "copyright": "© 2024 Werexp. 保留所有权利。"
+      "copyright": "© 2024 API Consulting. 保留所有权利。"
     }
   }
 }

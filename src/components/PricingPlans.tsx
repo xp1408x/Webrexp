@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTheme } from '../context/ThemeContext';
 
 const PricingPlans: React.FC = () => {
+  const { theme } = useTheme();
   const plans = [
     {
       name: 'Plan Básico',
@@ -47,9 +49,9 @@ const PricingPlans: React.FC = () => {
   ];
 
   return (
-    <section id="pricing" className="py-20 text-blanco-puro">
+    <section id="pricing" className={`py-20 ${theme === 'dark' ? 'bg-gris-urbano text-blanco-puro' : 'bg-blanco-puro text-gris-urbano'}`}>
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-12 text-cian-futurista">Nuestros Planes</h2>
+        <h2 className={`text-4xl font-bold text-center mb-12 ${theme === 'dark' ? 'text-cian-futurista' : 'text-azul-conectado'}`}>Nuestros Planes</h2>
         <p className="text-center text-lg mb-16 max-w-3xl mx-auto">
           Ofrecemos planes flexibles para adaptarnos a tus necesidades y presupuesto. Todos nuestros planes incluyen diseño responsive y soporte.
         </p>
@@ -58,14 +60,14 @@ const PricingPlans: React.FC = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg shadow-lg p-8 flex flex-col items-center text-center transform transition-transform duration-300 hover:scale-105 border-2 border-azul-conectado"
+              className={`${theme === 'dark' ? 'bg-gray-800 border-azul-conectado' : 'bg-gray-100 border-azul-conectado'} rounded-lg shadow-lg p-8 flex flex-col items-center text-center transform transition-transform duration-300 hover:scale-105 border-2`}
             >
-              <h3 className="text-3xl font-bold mb-4 text-cian-futurista">{plan.name}</h3>
-              <p className="text-5xl font-extrabold mb-6 text-blanco-puro">{plan.price}</p>
-              <ul className="text-lg mb-8 space-y-3 text-gris-neblina">
+              <h3 className={`text-3xl font-bold mb-4 ${theme === 'dark' ? 'text-cian-futurista' : 'text-azul-conectado'}`}>{plan.name}</h3>
+              <p className={`text-5xl font-extrabold mb-6 ${theme === 'dark' ? 'text-blanco-puro' : 'text-gris-urbano'}`}>{plan.price}</p>
+              <ul className={`text-lg mb-8 space-y-3 ${theme === 'dark' ? 'text-gris-neblina' : 'text-gray-600'}`}>
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center justify-center">
-                    <svg className="w-6 h-6 text-cian-futurista mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className={`w-6 h-6 ${theme === 'dark' ? 'text-cian-futurista' : 'text-azul-conectado'} mr-2`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                     {feature}

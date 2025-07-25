@@ -7,11 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'cian-futurista': '#00CFFF',
-        'azul-conectado': '#1565FF',
-        'gris-urbano': '#2D2D2D',
-        'blanco-puro': '#FFFFFF',
-        'gris-neblina': '#E5E8EC',
+        'azul-indigo-digital': '#2956D9',
+        'azul-cielo-vibrante': '#00B7F3',
+        'gris-carbon-profundo': '#1C1C28',
+        'gris-claro-niebla': '#F5F7FA',
+        'aqua-brillante': '#00F0B5',
       },
       fontFamily: {
         poppins: ["Poppins", "Space Grotesk", "Arial", "sans-serif"],

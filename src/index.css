@@ -2,37 +2,37 @@
 
 body {
   font-family: 'Inter', Arial, sans-serif;
-  background-color: #E5E8EC;
-  color: #2D2D2D;
+  background-color: var(--gris-claro-niebla); /* Using CSS variable for Tailwind color */
+  color: var(--gris-carbon-profundo); /* Using CSS variable for Tailwind color */
 }
 h1, h2, h3, h4, h5, h6, .logo, nav a, .cta, .btn, .menu {
   font-family: 'Poppins', 'Space Grotesk', Arial, sans-serif;
 }
-.bg-dark { background-color: #FFFFFF; }
-.bg-card { background-color: #E5E8EC; }
-.border-card { border-color: #2D2D2D; }
-.text-accent { color: #00CFFF !important; }
-.bg-accent { background-color: #00CFFF !important; }
-.bg-accent-hover:hover { background-color: #1565FF !important; }
-.text-secondary { color: #1565FF !important; }
-.bg-secondary { background-color: #1565FF !important; }
-.text-urbano { color: #2D2D2D !important; }
-.bg-urbano { background-color: #2D2D2D !important; }
-.bg-neblina { background-color: #E5E8EC !important; }
-.text-white { color: #FFFFFF !important; }
-.bg-white { background-color: #FFFFFF !important; }
+.bg-dark { background-color: var(--gris-carbon-profundo); } /* Changed to gris-carbon-profundo as per palette */
+.bg-card { background-color: var(--gris-claro-niebla); }
+.border-card { border-color: var(--gris-carbon-profundo); }
+.text-accent { color: var(--aqua-brillante) !important; }
+.bg-accent { background-color: var(--aqua-brillante) !important; }
+.bg-accent-hover:hover { background-color: var(--azul-indigo-digital) !important; }
+.text-secondary { color: var(--azul-indigo-digital) !important; }
+.bg-secondary { background-color: var(--azul-indigo-digital) !important; }
+.text-urbano { color: var(--gris-carbon-profundo) !important; }
+.bg-urbano { background-color: var(--gris-carbon-profundo) !important; }
+.bg-neblina { background-color: var(--gris-claro-niebla) !important; }
+.text-white { color: #FFFFFF !important; } /* Keep white for text as per combination suggestions */
+.bg-white { background-color: #FFFFFF !important; } /* Keep white for background as per combination suggestions */
 .btn, .cta, .bg-accent {
-  background: linear-gradient(90deg, #00CFFF 0%, #1565FF 100%);
+  background: linear-gradient(90deg, var(--aqua-brillante) 0%, var(--azul-indigo-digital) 100%);
   color: #FFFFFF !important;
   border: none;
 }
 .btn:hover, .cta:hover {
-  background: #1565FF;
+  background: var(--azul-indigo-digital);
   color: #FFFFFF !important;
 }
 .card, .bg-card {
-  background: #E5E8EC !important;
-  color: #2D2D2D !important;
+  background: var(--gris-claro-niebla) !important;
+  color: var(--gris-carbon-profundo) !important;
 }
 .reveal {
   position: relative;
